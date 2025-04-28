@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Fotógrafa profissional especializada em capturar momentos únicos com criatividade e emoção.">
+    <meta name="author" content="Claysa Nunes">
+    <title>Claysa Nunes - Fotografia Profissional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Claysa Nunes</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#sobremim">Sobre</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+    <section class="intro">
+        <div class="imagemCapa" id="capa">
+        <h1>Claysa Nunes</h1>
+        <p>Entre o real e o poético, entre o belo e o cru, é assim que registro o mundo.</p>
+        <a href="portfolio.html" class="button">Veja Meu Portfólio</a>
+        </div>
+    </section>
+
+    <section id ="sobremim" class="sobremim">
+        <h2>Sobre Mim</h2>
+        <div class="conteudo-sobremim">
+            <div class="texto-sobremim">
+        <br>
+        <p>Desde sempre, fui encantada pela essência de viver e pela arte de eternizar instantes. Cada momento tem sua importância, e foi essa paixão por capturar a beleza do tempo que me levou a transformar olhares em memórias, sentimentos em imagens e vida em arte.</p>
+<br>
+           <p>Fotografia, para mim, é mais do que capturar imagens. É contar histórias, fazer poesia, revelar o belo e o imperfeito, eternizar aquilo que o tempo leva.</p>
+           <p> Que meus olhos possam alcançar o distante e o instante, a luz e a sombra, o eterno.</p>
+            
+            <br><br>
+        <p>Prazer, Claysa Nunes. 📸</p>
+    </div>
+        <img src="img/img1.jpeg" alt="Minha foto" class="foto-sobremim">
+</div>
+    </section>
+
+    <section id="serviços" class="portfolio">
+        <h2>Serviços</h2>
+        <div class="portfolio-grid">
+            <img src="img/img9.jpeg" alt="Imagem 1">
+            
+        </div>
+        <button href="portifolioteste.html" class="button">Museu</button>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="contato-container">
+            <div class="form-box">
+              <h2 >Entre em contato e vamos criar juntos!</h2>
+              <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+          
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+          
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+          
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+          
+                <button type="submit" id="send-button">Enviar</button>
+<span id="loading" style="display:none;">Enviando...</span>
+<span id="success" style="display:none;">Mensagem enviada com sucesso!</span>
+<span id="error" style="display:none;">Erro ao enviar mensagem. Tente novamente.</span>
+              </form>
+            </div>
+          
+            <div class="info-box">
+              <h2>Vamos conversar?</h2>
+              <p><strong>Telefone:</strong> 61 98333-6109</p>
+              <p><strong>Email:</strong> claysatrabalhos@gmail.com</p>
+              <p><strong>Localização:</strong> Brasília, DF BR</p>
+            </div>
+          </div>
+          </section>
+</main>
+
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</body>
+<footer>
+    <p>&copy; 2025 Claysa Nunes. Todos os direitos reservados.</p>
+    <p>Siga-me no <a href="https://www.instagram.com/claysaclicks/" target="_blank">Instagram</a></p>
+</footer>
+</html>
