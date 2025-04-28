@@ -26,7 +26,7 @@ form.addEventListener('submit', function(event) {
     loadingText.style.display = 'inline';
 
     const serviceID = 'service_sbuqncw'; // <-- Substituir aqui
-    const templateID = 'template_xugz9xy'; // <-- Substituir aqui
+    const templateID = 'template_fjdozon'; // <-- Substituir aqui
 
     emailjs.sendForm(serviceID, templateID, this)
       .then(() => {
